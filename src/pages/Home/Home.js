@@ -1,7 +1,7 @@
 import React from 'react';
 import FileUpload from '../../components/FileUpload/FileUpload';
 import RoadmapGrid from '../../components/RoadmapGrid/RoadmapGrid';
-import { exportToJson } from '../../utils/exportUtils';
+import { exportToJson, createExportData } from '../../utils/exportUtils';
 import './Home.css';
 
 const Home = ({ roadmap, setRoadmap, userData, updateUserData }) => {
@@ -15,27 +15,11 @@ const Home = ({ roadmap, setRoadmap, userData, updateUserData }) => {
       return;
     }
 
-    const exportData = {
-      roadmap: roadmap,
-      userProgress: userData,
-      exportDate: new Date().toISOString(),
-      totalProgress: calculateProgress()
-    };
-
-    exportToJson(exportData, `react-roadmap-progress-${new Date().getTime()}.json`);
-  };
-
-  const calculateProgress = () => {
-    if (!roadmap || !roadmap.topics) return 0;
+    const exportData = createExportData(roadmap, userData);
+    const filename = `${roadmap.title.toLowerCase().replace(/\s+/g, '-')}-progress-${new Date().getTime()}.json`;
     
-    const totalTopics = roadmap.topics.length;
-    if (totalTopics === 0) return 0;
-    
-    const completedTopics = roadmap.topics.filter(topic => 
-      userData[topic.id]?.status === 'completed'
-    ).length;
-    
-    return Math.round((completedTopics / totalTopics) * 100);
+    exportToJson(exportData, filename);
+    alert(`Прогресс успешно экспортирован в файл: ${filename}`);
   };
 
   return (

@@ -1,0 +1,116 @@
+{
+  "title": "Backend Development Roadmap",
+  "description": "Путь изучения бэкенд разработки с Node.js и базами данных",
+  "topics": [
+    {
+      "id": "backend-1",
+      "title": "Node.js Fundamentals",
+      "description": "Event Loop, модульная система, встроенные модули",
+      "links": [
+        {
+          "title": "Node.js Docs",
+          "url": "https://nodejs.org/docs/latest/api/"
+        }
+      ]
+    },
+    {
+      "id": "backend-2",
+      "title": "Express.js Framework",
+      "description": "Создание REST API, middleware, routing",
+      "links": [
+        {
+          "title": "Express Guide",
+          "url": "https://expressjs.com/"
+        }
+      ]
+    },
+    {
+      "id": "backend-3",
+      "title": "Databases SQL",
+      "description": "PostgreSQL/MySQL, миграции, оптимизация запросов",
+      "links": [
+        {
+          "title": "PostgreSQL Tutorial",
+          "url": "https://www.postgresqltutorial.com/"
+        }
+      ]
+    },
+    {
+      "id": "backend-4",
+      "title": "NoSQL Databases",
+      "description": "MongoDB, Redis, документная модель данных",
+      "links": [
+        {
+          "title": "MongoDB University",
+          "url": "https://university.mongodb.com/"
+        }
+      ]
+    },
+    {
+      "id": "backend-5",
+      "title": "Authentication & Authorization",
+      "description": "JWT, OAuth, сессии, безопасность",
+      "links": [
+        {
+          "title": "JWT Guide",
+          "url": "https://jwt.io/introduction"
+        }
+      ]
+    },
+    {
+      "id": "backend-6",
+      "title": "Docker & Containers",
+      "description": "Контейнеризация приложений, Docker Compose",
+      "links": [
+        {
+          "title": "Docker Get Started",
+          "url": "https://docs.docker.com/get-started/"
+        }
+      ]
+    },
+    {
+      "id": "backend-7",
+      "title": "API Design & Documentation",
+      "description": "REST principles, OpenAPI, Swagger",
+      "links": [
+        {
+          "title": "OpenAPI Specification",
+          "url": "https://swagger.io/specification/"
+        }
+      ]
+    },
+    {
+      "id": "backend-8",
+      "title": "Message Brokers",
+      "description": "RabbitMQ, Kafka для асинхронной обработки",
+      "links": [
+        {
+          "title": "RabbitMQ Tutorial",
+          "url": "https://www.rabbitmq.com/getstarted.html"
+        }
+      ]
+    },
+    {
+      "id": "backend-9",
+      "title": "Testing Backend",
+      "description": "Unit tests, integration tests, e2e testing",
+      "links": [
+        {
+          "title": "Jest Testing",
+          "url": "https://jestjs.io/"
+        }
+      ]
+    },
+    {
+      "id": "backend-10",
+      "title": "Deployment & DevOps",
+      "description": "CI/CD, мониторинг, логирование, Nginx",
+      "links": [
+        {
+          "title": "GitHub Actions",
+          "url": "https://docs.github.com/en/actions"
+        }
+      ]
+    }
+  ]
+}

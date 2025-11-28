@@ -1,0 +1,116 @@
+{
+  "title": "Frontend Development Roadmap",
+  "description": "Полный путь становления фронтенд разработчика в 2024",
+  "topics": [
+    {
+      "id": "frontend-1",
+      "title": "HTML & Semantic Layout",
+      "description": "Изучение HTML5, семантической разметки, доступности (a11y)",
+      "links": [
+        {
+          "title": "MDN HTML",
+          "url": "https://developer.mozilla.org/ru/docs/Web/HTML"
+        }
+      ]
+    },
+    {
+      "id": "frontend-2",
+      "title": "CSS & Modern Layouts",
+      "description": "CSS3, Flexbox, Grid, анимации, адаптивный дизайн",
+      "links": [
+        {
+          "title": "CSS Tricks",
+          "url": "https://css-tricks.com/"
+        }
+      ]
+    },
+    {
+      "id": "frontend-3",
+      "title": "JavaScript Fundamentals",
+      "description": "Типы данных, функции, DOM manipulation, события",
+      "links": [
+        {
+          "title": "JavaScript.info",
+          "url": "https://javascript.info/"
+        }
+      ]
+    },
+    {
+      "id": "frontend-4",
+      "title": "Modern JavaScript (ES6+)",
+      "description": "Стрелочные функции, деструктуризация, модули, промисы",
+      "links": [
+        {
+          "title": "ES6 Features",
+          "url": "https://github.com/lukehoban/es6features"
+        }
+      ]
+    },
+    {
+      "id": "frontend-5",
+      "title": "React Framework",
+      "description": "Компоненты, хуки, состояние, контекст",
+      "links": [
+        {
+          "title": "React Official",
+          "url": "https://react.dev/"
+        }
+      ]
+    },
+    {
+      "id": "frontend-6",
+      "title": "State Management",
+      "description": "Redux, Zustand, React Query для управления состоянием",
+      "links": [
+        {
+          "title": "Redux Toolkit",
+          "url": "https://redux-toolkit.js.org/"
+        }
+      ]
+    },
+    {
+      "id": "frontend-7",
+      "title": "TypeScript",
+      "description": "Статическая типизация для JavaScript",
+      "links": [
+        {
+          "title": "TypeScript Handbook",
+          "url": "https://www.typescriptlang.org/docs/"
+        }
+      ]
+    },
+    {
+      "id": "frontend-8",
+      "title": "Testing",
+      "description": "Jest, React Testing Library, Cypress",
+      "links": [
+        {
+          "title": "Testing Library",
+          "url": "https://testing-library.com/"
+        }
+      ]
+    },
+    {
+      "id": "frontend-9",
+      "title": "Build Tools",
+      "description": "Webpack, Vite, ESLint, Prettier",
+      "links": [
+        {
+          "title": "Vite Guide",
+          "url": "https://vitejs.dev/guide/"
+        }
+      ]
+    },
+    {
+      "id": "frontend-10",
+      "title": "Performance Optimization",
+      "description": "Code splitting, lazy loading, bundle analysis",
+      "links": [
+        {
+          "title": "Web Performance",
+          "url": "https://web.dev/performance/"
+        }
+      ]
+    }
+  ]
+}

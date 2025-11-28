@@ -1,0 +1,116 @@
+{
+  "title": "Python Development Roadmap",
+  "description": "Путь изучения Python от основ до продвинутых тем",
+  "topics": [
+    {
+      "id": "python-1",
+      "title": "Python Basics",
+      "description": "Синтаксис, типы данных, структуры данных, функции",
+      "links": [
+        {
+          "title": "Python Official Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "id": "python-2",
+      "title": "OOP in Python",
+      "description": "Классы, наследование, полиморфизм, инкапсуляция",
+      "links": [
+        {
+          "title": "Python OOP",
+          "url": "https://realpython.com/python3-object-oriented-programming/"
+        }
+      ]
+    },
+    {
+      "id": "python-3",
+      "title": "Web Frameworks",
+      "description": "Django, Flask, FastAPI для веб-разработки",
+      "links": [
+        {
+          "title": "Django Docs",
+          "url": "https://docs.djangoproject.com/"
+        }
+      ]
+    },
+    {
+      "id": "python-4",
+      "title": "Data Science Libraries",
+      "description": "Pandas, NumPy, Matplotlib для анализа данных",
+      "links": [
+        {
+          "title": "Pandas Tutorial",
+          "url": "https://pandas.pydata.org/docs/"
+        }
+      ]
+    },
+    {
+      "id": "python-5",
+      "title": "Machine Learning",
+      "description": "Scikit-learn, TensorFlow, PyTorch",
+      "links": [
+        {
+          "title": "Scikit-learn Guide",
+          "url": "https://scikit-learn.org/stable/"
+        }
+      ]
+    },
+    {
+      "id": "python-6",
+      "title": "Testing in Python",
+      "description": "unittest, pytest, mocking, test coverage",
+      "links": [
+        {
+          "title": "Pytest Documentation",
+          "url": "https://docs.pytest.org/"
+        }
+      ]
+    },
+    {
+      "id": "python-7",
+      "title": "Async Programming",
+      "description": "asyncio, async/await, асинхронные фреймворки",
+      "links": [
+        {
+          "title": "Async IO Python",
+          "url": "https://docs.python.org/3/library/asyncio.html"
+        }
+      ]
+    },
+    {
+      "id": "python-8",
+      "title": "Package Management",
+      "description": "pip, virtualenv, Poetry, создание пакетов",
+      "links": [
+        {
+          "title": "Python Packaging",
+          "url": "https://packaging.python.org/"
+        }
+      ]
+    },
+    {
+      "id": "python-9",
+      "title": "Database Integration",
+      "description": "SQLAlchemy, Django ORM, миграции",
+      "links": [
+        {
+          "title": "SQLAlchemy Tutorial",
+          "url": "https://docs.sqlalchemy.org/"
+        }
+      ]
+    },
+    {
+      "id": "python-10",
+      "title": "Deployment & Production",
+      "description": "Docker, Gunicorn, мониторинг, логирование",
+      "links": [
+        {
+          "title": "Docker Python Guide",
+          "url": "https://docs.docker.com/language/python/"
+        }
+      ]
+    }
+  ]
+}
